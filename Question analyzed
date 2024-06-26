@@ -1,0 +1,11 @@
+## Data Cleaning
+
+1. Data might contain constituencies spelling mismatches and some constituencies may be listed with identical names. Proper validation is required.
+
+2. In 2014, Andhra Pradesh underwent bifurcation. For simplicity, all constituencies from that year should be attributed to Telangana state. This includes constituencies such as Adilabad, Hyderabad, Warangal, etc., which should be considered part of Telangana rather than Andhra Pradesh for the year 2014.
+
+Data Transformation
+
+1. Establish suitable dimension tables and primary keys to link the CSV files effectively.
+
+2. Construct aggregate tables using append and groupby functions as needed to format the data appropriately for answering the queries.
